@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
 
-  
+
 
   <!-- <script src="https://cdn.tailwindcss.com"></script-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
@@ -241,7 +243,7 @@
         <div id="carouselExampleSlidesOnly" class="max-h-screen carousel slide relative shadow-xl sm:overflow-hidden sm:rounded-2xl" data-bs-ride="carousel">
           <div class="carousel-inner relative w-full overflow-hidden">
 
-            <div class="carousel-item active relative float-left w-full ">
+            <div class="carousel-item  relative float-left w-full ">
               <img src="temp/tire_changer_2.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
             <div class="carousel-item  relative float-left w-full ">
@@ -253,7 +255,7 @@
             <div class="carousel-item  relative float-left w-full ">
               <img src="temp/tire_changer_4.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
-            <div class="carousel-item  relative float-left w-full ">
+            <div class="carousel-item active relative float-left w-full ">
               <img src="temp/tire_changer_5.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
             <div class="carousel-item  relative float-left w-full ">
@@ -269,20 +271,6 @@
               <img src="temp/wb_2.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
             <div class="absolute top-0	right-0 bottom-0	left-0 bg-gradient-to-r from-sky-500  to-sky-300 mix-blend-multiply"></div>
-          </div>
-        </div>
-
-        <div id="carouselExampleSlidesOnly" class="relative" data-te-carousel-init data-te-carousel-slide>
-          <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-            <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item data-te-carousel-active>
-              <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="block w-full" alt="Wild Landscape" />
-            </div>
-            <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-              <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="block w-full" alt="Camera" />
-            </div>
-            <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-              <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="block w-full" alt="Exotic Fruits" />
-            </div>
           </div>
         </div>
 
@@ -456,13 +444,25 @@
 
 
     <script>
-      setText('Сергей', "67)-123-45-67", "шиномонтаж под ключ", 300);
-    </script>
-    <script>
+      const carousel = document.querySelector('.carousel'); // получаем элемент карусели
 
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      let slideIndex = 0; // начальный индекс слайда
 
+      function showSlides() {
+        const slides = carousel.querySelectorAll('.carousel-item'); // получаем все слайды
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].classList.remove('active'); // удаляем класс active у всех слайдов
+        }
+        slideIndex++; // увеличиваем индекс текущего слайда
+        if (slideIndex > slides.length) {
+          slideIndex = 1; // если текущий слайд - последний, переходим на первый
+        }
+        slides[slideIndex - 1].classList.add('active'); // добавляем класс active текущему слайду
+      }
+
+      setInterval(showSlides, 4000); // вызываем функцию showSlides каждые 4 секунды
+    </script>
+   
 </body>
 </div>
 
