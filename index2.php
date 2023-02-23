@@ -32,7 +32,7 @@
                 text-[6px] mic2:text-[8px]  sm:text-xs md:text-xl  lg:text-2xl xl:text-2xl">
             <div class="text-[#00c3f1] flex content-center grid">
               <span>
-                <a href="https://geleon.ua/">// В магазин!
+                <a href="https://geleon.ua/">// В магазин
                 </a>
               </span>
             </div>
@@ -47,7 +47,7 @@
                   h.parentNode.insertBefore(s, h);
                 })(window, document, 'https://cdn.bitrix24.ua/b5556387/crm/form/loader_45.js');
               </script>
-              <button class=" ">// Заказать звонок!</button>
+              <button class=" ">// Заказать звонок</button>
 
             </div>
             <div class=" flex content-center grid">
