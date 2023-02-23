@@ -19,7 +19,7 @@
 
 <body>
  
-  <div class=" bg-cyan-100 flex justify-center">
+  <div class=" bg-cyan-600 flex justify-center">
     <div class="max-w-8xl bg-white ">
       <header>
         <div class="relative bg-white mb-5 ">
