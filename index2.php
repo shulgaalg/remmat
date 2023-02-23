@@ -32,7 +32,7 @@
                 text-[6px] mic2:text-[8px]  sm:text-xs md:text-xl  lg:text-2xl xl:text-2xl">
             <div class="text-[#00c3f1] flex content-center grid">
               <span>
-                <a href="https://geleon.ua/">// В магазин
+                <a href="https://geleon.ua/">// В магазин remmat changes!!!
                 </a>
               </span>
             </div>
