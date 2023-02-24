@@ -9,6 +9,7 @@
 
   <!-- <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" /-->
+  <script src="./node_modules/TW-ELEMENTS/dist/js/index.min.js"></script>
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
@@ -18,13 +19,13 @@
 </head>
 
 <body>
- 
+
   <div class=" bg-cyan-600 flex justify-center">
     <div class="max-w-6xl bg-white ">
       <header>
         <div class="relative bg-white mb-5 ">
 
-          <div class="grow mr-1 sm:mr-4 flex justify-center content-center font-semibold text-[#00c3f1]
+          <div class="grow mr-1 sm:mr-4bg-green-300 flex justify-center content-center font-semibold text-[#00c3f1]
                 text-[6px] mic2:text-[8px]  sm:text-xs md:text-xl  lg:text-2xl xl:text-2xl">
             <div class="text-[#00c3f1] flex content-center grid">
               <span>
@@ -174,11 +175,11 @@
 
 
         <div class="lg:p-2 absolute top-6 lg:top-20 z-30 flex  grid justify-items-center  inset-x-0">
-          
-            <h1 class="  font-bold  text-xs mic:text-base sm:text-2xl md:text-4xl lg:text-5xl  mt-10  text-white">
-              Расходные материалы шиномонтажа
-            </h1>
-          
+
+          <h1 class="  font-bold  text-xs mic:text-base sm:text-2xl md:text-4xl lg:text-5xl  mt-10  text-white">
+            Расходные материалы шиномонтажа
+          </h1>
+
 
           <div class="mt-2 lg:mt-20 font-bold  text-[8px] lg:text-xl text-indigo-100 sm:max-w-3xl ">
             <h2 class="pl-[20px] lg:pl-[110px] text-left">
@@ -235,41 +236,39 @@
 
           </div>
         </div>
+        <!--https://tailwind-elements.com/docs/standard/components/carousel/ 
+                 ОТЮДА ВЗЯТА КАРУСЕЛЬ-->
 
-        <div id="carouselExampleSlidesOnly" class="max-h-screen carousel slide relative shadow-xl sm:overflow-hidden sm:rounded-2xl" data-bs-ride="carousel">
-          <div class="carousel-inner relative w-full overflow-hidden">
+        <div id="carouselExampleSlidesOnly" class="max-h-screen carousel slide relative shadow-xl overflow-hidden sm:rounded-2xl" data-te-carousel-init data-te-carousel-slide>
+          <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
 
-            <div class="carousel-item active relative float-left w-full ">
+            <div class="relative float-left -mr-[100%]  w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item data-te-carousel-active>
               <img src="temp/tire_changer_2.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
-            <div class="carousel-item  relative float-left w-full ">
-              <img src="temp/tire_changer_1.jpg" class="block w-full" alt="Wild Landscape" />
-            </div>
-            <div class="carousel-item  relative float-left w-full ">
+            <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
               <img src="temp/tire_changer_3.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
-            <div class="carousel-item  relative float-left w-full ">
+            <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
               <img src="temp/tire_changer_4.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
-            <div class="carousel-item  relative float-left w-full ">
+            <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
               <img src="temp/tire_changer_5.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
-            <div class="carousel-item  relative float-left w-full ">
+            <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
               <img src="temp/tire_changer_6.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
-            <div class="carousel-item  relative float-left w-full ">
+            <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
               <img src="temp/w_1.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
-            <div class="carousel-item  relative float-left w-full ">
+            <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
               <img src="temp/wb_1.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
-            <div class="carousel-item  relative float-left w-full ">
+            <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
               <img src="temp/wb_2.jpg" class="block w-full" alt="Wild Landscape" />
             </div>
             <div class="absolute top-0	right-0 bottom-0	left-0 bg-gradient-to-r from-sky-500  to-sky-300 mix-blend-multiply"></div>
           </div>
         </div>
-
 
 
 
@@ -751,7 +750,6 @@
         </div>
       </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 
 
     <script>
