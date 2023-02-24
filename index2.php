@@ -8,8 +8,8 @@
 
 
 
-  <!-- <script src="https://cdn.tailwindcss.com"></script-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"-->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
