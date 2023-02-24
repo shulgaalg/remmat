@@ -20,7 +20,7 @@
 <body>
  
   <div class=" bg-cyan-600 flex justify-center">
-    <div class="max-w-8xl bg-white ">
+    <div class="max-w-6xl bg-white ">
       <header>
         <div class="relative bg-white mb-5 ">
 
@@ -757,7 +757,7 @@
     <script>
       setText('Сергей', "67)-123-45-67", "шиномонтаж под ключ", 300);
     </script>
-    <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+
 
 </body>
 </div>
