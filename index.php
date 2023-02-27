@@ -320,22 +320,22 @@
 
         <div class="bg-gray-100">
           <div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-            <p class="text-center text-base font-semibold text-gray-500">Trusted by over 5 very average small businesses</p>
+            <p class="text-center text-base font-semibold text-gray-500 ">Надійний партнер шиномонтажного бізнесу</p>
             <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
               <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
+                <img class="h-30" src="/img/1.png" alt="TipTop">
               </div>
               <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
+                <img class="h-30" src="img/2.png " alt="Mirage">
               </div>
               <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
+                <img class="h-30" src="img/3.png" alt="StaticKit">
               </div>
               <div class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-                <img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor">
+                <img class="h-30" src="img/4.png" alt="Transistor">
               </div>
               <div class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation">
+                <img class="h-30" src="img/5.png" alt="Workcation">
               </div>
             </div>
           </div>
@@ -356,10 +356,12 @@
                     </span>
                   </div>
                   <div class="mt-6">
-                    <h2 class="text-3xl font-bold tracking-tight text-gray-900">Stay on top of customer support</h2>
-                    <p class="mt-4 text-lg text-gray-500">Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900">Дізнайтеся, як збільшити прибуток шиномонтажного бізнесу до 53% за допомогою шиномонтажних матеріалів підвищенної прибутковості від компанії Geleon.ua</h2>
+                    <p class="mt-4 text-lg text-gray-500">Дізнайтеся як збільшити прибуток шиномонтажного бізнесу до 53%, пришвидшити швідкість виконання шиномонтажних послуг та збільшити кількість задволених клієнтів. Залиште контакти і отримайте змогу завантажити "Порадидля збільшення прибутковості шиномонтажного бізнесу"</p>
                     <div class="mt-6">
-                      <a href="#" class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Get started</a>
+                      <a href="#" class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Отримайте БЕЗКОШТОВНО 
+
+                      </a>
                     </div>
                   </div>
                 </div>

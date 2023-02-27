@@ -1128,6 +1128,14 @@ video {
   height: 0.25rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
 .max-h-5 {
   max-height: 1.25rem;
 }
@@ -1308,6 +1316,10 @@ video {
   min-width: 100px;
 }
 
+.max-w-6xl {
+  max-width: 72rem;
+}
+
 .max-w-\[65\%\] {
   max-width: 65%;
 }
@@ -1358,14 +1370,6 @@ video {
 
 .max-w-\[90\%\] {
   max-width: 90%;
-}
-
-.max-w-5xl {
-  max-width: 64rem;
-}
-
-.max-w-6xl {
-  max-width: 72rem;
 }
 
 .flex-auto {
