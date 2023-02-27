@@ -20,7 +20,8 @@
 
 <body>
 
-  <div class=" bg-cyan-600 flex justify-center">
+  <div class=" bg-purple-700  flex justify-center">
+    <!--bg-cyan-600-->
     <div class="max-w-6xl bg-white ">
       <header>
         <div class="relative bg-white mb-5 ">
@@ -56,13 +57,15 @@
             </div>
 
           </div>
-          <div class="mx-auto flex  items-center justify-between bg-[#00c3f1]">
+          <!--<div class="mx-auto flex  items-center justify-between bg-[#00c3f1]">-->
+          <div class="mx-auto flex  items-center justify-between bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">
             <div class="w-1/5 sm:flex ">
               <a href="#">
-                <img src="src/logo1.png" class="max-sm:max-h-7  mic:max-sm:ml-6 " alt="">
+                <!--<img src="src/logo1.png" class="max-sm:max-h-7  mic:max-sm:ml-6 " alt="">-->
+                <a  href="#" class="text-white text-4xl	line-height: 2.5rem; "><b>Geleon.ua</a>
               </a>
               <a href="#">
-                <img src="src/logo2.png" alt="">
+                <!--<img src="src/logo2.png" alt="">-->
               </a>
             </div>
             <div class="">
@@ -72,12 +75,12 @@
               </div>
 
               <nav class="hidden space-x-10 md:flex group text-lg lg:text-xl ">
-
-                <a href="#" class=" font-medium text-gray-500 hover:text-gray-900">Решения</a>
-                <a href="#" class=" font-medium text-gray-500 hover:text-gray-900">Продукция</a>
-                <a href="#" class=" font-medium text-gray-500 hover:text-gray-900">Отзывы</a>
-                <a href="#" class=" font-medium text-gray-500 hover:text-gray-900">О Нас</a>
-                <a href="#" class=" font-medium text-gray-500 hover:text-gray-900">Карта</a>
+                
+                <a href="#" class=" text-white text-xl	line-height: 2.5rem; ">Рішення</a>
+                <a href="#" class=" text-white text-xl	line-height: 2.5rem;">Продукція</a>
+                <a href="#" class=" text-white text-xl	line-height: 2.5rem;">Відгуки</a>
+                <a href="#" class=" text-white text-xl	line-height: 2.5rem;">Про Нас</a>
+                <a href="#" class=" text-white text-xl	line-height: 2.5rem;">Карта</a>
                 <div class="flex flex-auto justify-end mic:mx-2 md:mx-4 lg:ml-20 md:mt-2">
 
                   <a href="https://tinyurl.com/354mw3sh"> <img class="max-h-5 mic:max-h-7 " src="/src/tele.png" />
@@ -176,12 +179,13 @@
 
         <div class="lg:p-2 absolute top-6 lg:top-20 z-30 flex  grid justify-items-center  inset-x-0">
 
-          <h1 class="  font-bold  text-xs mic:text-base sm:text-2xl md:text-4xl lg:text-5xl  mt-10  text-white">
-            Расходные материалы шиномонтажа
+          <h1 class="  font-bold text-white text-xl	line-height: 2.5rem; text-xs mic:text-base sm:text-2xl md:text-4xl lg:text-5xl  mt-10  text-white ">
+          <center>
+          Високоприбуткові витратні матеріали <br> для шиномонтажу </center>
           </h1>
 
 
-          <div class="mt-2 lg:mt-20 font-bold  text-[8px] lg:text-xl text-indigo-100 sm:max-w-3xl ">
+          <!--<div class="mt-2 lg:mt-20 font-bold  text-[8px] lg:text-xl text-indigo-100 sm:max-w-3xl ">
             <h2 class="pl-[20px] lg:pl-[110px] text-left">
               <ul>
                 <li>от латки до комплекта "на первый раз" за 1 звонок</li>
@@ -189,10 +193,10 @@
                 <li><span class="">отправка каждый день при заказе до 14-00</span></li>
               </ul>
             </h2>
-          </div>
+          </div>-->
 
-          <div class="mt-1 text-[7px] lg:text-xl text-white   text-center font-bold w-8/12 bg-indigo-500 rounded-md opacity-90">
-
+          <div class="mt-1 text-[7px] lg:text-xl text-white   text-center font-bold w-8/12   rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700 ">
+           
             <h3 class="mt-1 lg:mt-4 text-center">
               Оставьте заявку на просчет и получите комплект <br> латок тм Patchrubber стоимостью 250грн в подарок!
             </h3>
@@ -355,10 +359,10 @@
                     </span>
                   </div>
                   <div class="mt-6">
-                    <h2 class="text-3xl font-bold tracking-tight text-gray-900">Дізнайтеся, як збільшити прибуток шиномонтажного бізнесу до 53% за допомогою шиномонтажних матеріалів підвищенної прибутковості від компанії Geleon.ua</h2>
-                    <p class="mt-4 text-lg text-gray-500">Дізнайтеся як збільшити прибуток шиномонтажного бізнесу до 53%, пришвидшити швідкість виконання шиномонтажних послуг та збільшити кількість задволених клієнтів. Залиште контакти і отримайте змогу завантажити "Порадидля збільшення прибутковості шиномонтажного бізнесу"</p>
+                    <h2 class="text-4xl font-bold tracking-tight text-gray-900">Дізнайтеся, як збільшити прибуток шиномонтажного бізнесу до 53% за допомогою шиномонтажних матеріалів підвищенної прибутковості від компанії Geleon.ua</h2>
+                    <p class="mt-4 text-lg text-gray-500">Дізнайтеся як збільшити прибуток шиномонтажного бізнесу до 53%, збільшити швідкість виконання шиномонтажних послуг та  кількість задволених клієнтів. Залиште контакти і отримайте змогу завантажити "Поради для збільшення прибутковості шиномонтажного бізнесу від компанії Geleo.ua шляхом підбору найбільш актуальніх і сучасних шиноремонтних матеріалів"</p>
                     <div class="mt-6">
-                      <a href="#" class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Отримайте БЕЗКОШТОВНО 
+                      <a href="#" class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">ОТРИМАЙТЕ БЕЗКОШТОВНО <br>"Стратегію збільшення прибутку <br> шиномонтажного бізнесу"
 
                       </a>
                     </div>
@@ -367,14 +371,14 @@
                 <div class="mt-8 border-t border-gray-200 pt-6">
                   <blockquote>
                     <div>
-                      <p class="text-base text-gray-500">“Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.”</p>
+                      <p class="text-base text-gray-500">“Іноді найменший крок у правильному напрямку може бути найбільшим кроком у вашому житті. ”</p>
                     </div>
                     <footer class="mt-3">
                       <div class="flex items-center space-x-3">
                         <div class="flex-shrink-0">
-                          <img class="h-6 w-6 rounded-full" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=8&amp;w=1024&amp;h=1024&amp;q=80" alt="">
+                          <img class="h-6 w-6 rounded-full" src="img/6.png" alt="foto">
                         </div>
-                        <div class="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
+                        <div class="text-base font-medium text-gray-700">Цитата з просторів інтернету</div>
                       </div>
                     </footer>
                   </blockquote>
@@ -399,10 +403,10 @@
                     </span>
                   </div>
                   <div class="mt-6">
-                    <h2 class="text-3xl font-bold tracking-tight text-gray-900">Better understand your customers</h2>
-                    <p class="mt-4 text-lg text-gray-500">Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
+                    <h2 class="text-4xl font-bold tracking-tight text-gray-900">Придбайте високоприбуткові шиномонтажні матеріали</h2>
+                    <p class="mt-4 text-lg text-gray-500">Отримайте повний прайс-лист шиномонтних матеріалів: латки камерні, латки універсальні, пластирі радіальні та діагональні, грибки, колишки, клей шиномонтажний швидкопідсихаючий, сира гума, герметики борту,  вентилі, золотники та багато іншого для шиномонтажного бізнесу</p>
                     <div class="mt-6">
-                      <a href="#" class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Get started</a>
+                      <a href="#" class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Отримати прайс-лист</a>
                     </div>
                   </div>
                 </div>
@@ -419,8 +423,8 @@
         <!-- Gradient Feature Section -->
         <div class="bg-gradient-to-r from-purple-800 to-indigo-700">
           <div class="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-24">
-            <h2 class="text-3xl font-bold tracking-tight text-white">Inbox support built for efficiency</h2>
-            <p class="mt-4 max-w-3xl text-lg text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis in.</p>
+            <h2 class="text-4xl font-bold tracking-tight text-white"><b>ПРОДУКЦІЯ</h2>
+            <p class="mt-4 max-w-3xl text-lg text-purple-200">У нас завжди  в наявності всі шиномонтажні матеріали, необхідні для Вашого бізнесу. <br> Зручні форми замовлення та оплати. <br> Швидка доставка</p>
             <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
 
               <div>
@@ -432,106 +436,141 @@
                   </span>
                 </div>
                 <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Unlimited Inboxes</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                  <h3 class="text-lg font-medium text-white"> <b> ЛАТКИ І ПЛАСТИРИ ДЛЯ РЕМОНТУ КАМЕР І ШИН </b></h3>
+                  <p class="mt-2 text-base text-purple-200">Латки камерні <br>Латки універсальні <br>Пластири радіальні <br>Пластири діагональні </p>
                 </div>
               </div>
 
               <div>
                 <div>
                   <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
+                    <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/inbox" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z"></path>
+                    </svg>
+                  </span>
+                  <!--<span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
                     <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/users" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"></path>
                     </svg>
-                  </span>
+                  </span>-->
                 </div>
                 <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Manage Team Members</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                  <h3 class="text-lg font-medium text-white"><b>ВЕНТИЛІ, ЗОЛОТНИКИ,  <br> ПОДОВЖУВАЧІ</b></h3>
+                  <p class="mt-2 text-base text-purple-200">Безкамерні для легкових та вантажних <br>Камерні для легкових та вантажних <br> Грибки, кілочки, шнури, якоря</p>
                 </div>
               </div>
 
               <div>
                 <div>
                   <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
+                    <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/inbox" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z"></path>
+                    </svg>
+                  </span>
+                  <!--<span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
                     <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/trash" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0"></path>
                     </svg>
-                  </span>
-                </div>
+                  </span>-->
+              </div>
                 <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Spam Report</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                  <h3 class="text-lg font-medium text-white"><b>ХІМІЯ, РІДИНИ, ПАСТИ <br>ДЛЯ ШИНОМОНТАЖУ В НАЯВНОСТІ</b></h3>
+                  <p class="mt-2 text-base text-purple-200">Герметики борту, термоклеї, пасти <br> Клеї камерні, клеї універсальні <br> Клей-цемент, очищувачі, затверджувачі</p>
                 </div>
               </div>
 
               <div>
                 <div>
                   <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
+                    <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/inbox" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z"></path>
+                    </svg>
+                  </span>
+                  <!--<span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
                     <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/pencil-square" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10"></path>
                     </svg>
-                  </span>
+                  </span>-->
                 </div>
                 <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Compose in Markdown</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                  <h3 class="text-lg font-medium text-white"><b>ВАНТАЖІ БАЛАНСУВАЛЬНІ <br>ВСІХ РОЗМІРІВ <br> У НАЯВНОСТІ</b></h3>
+                  <p class="mt-2 text-base text-purple-200">Клеючі (самоклейка, адгезивний) <br>Набивні для сталевих дисків <br> Набивні для легкосплавних дисків</p>
                 </div>
               </div>
 
               <div>
                 <div>
                   <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
+                    <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/inbox" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z"></path>
+                    </svg>
+                  </span>
+                  <!--<span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
                     <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/document-chart-bar" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"></path>
                     </svg>
-                  </span>
+                  </span>-->
                 </div>
                 <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Team Reporting</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                  <h3 class="text-lg font-medium text-white"><b>СИРА ГУМА <br> ДЛЯ ВУЛКАНІЗАЦІЇ</b></h3>
+                  <p class="mt-2 text-base text-purple-200">Товщина: до 1 мм, <br> 1-2,5 мм,  от 3 мм <br>Будь-яких розмірів</p>
                 </div>
               </div>
 
               <div>
                 <div>
                   <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
+                    <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/inbox" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z"></path>
+                    </svg>
+                  </span>
+                  <!--<span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
                     <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/arrow-uturn-left" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3"></path>
                     </svg>
-                  </span>
+                  </span>-->
                 </div>
                 <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Saved Replies</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                  <h3 class="text-lg font-medium text-white"><b>ІНСТРУМЕНТИ ДЛЯ ШИНОМОНТАЖУ</b></h3>
+                  <p class="mt-2 text-base text-purple-200"> Надійні інструменти з гарантією якості. <br>Великий ассортимент. </p>
                 </div>
               </div>
 
               <div>
                 <div>
                   <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
+                    <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/inbox" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z"></path>
+                    </svg>
+                  </span>
+                  <!--<span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
                     <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/chat-bubble-left-ellipsis" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 01.778-.332 48.294 48.294 0 005.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path>
                     </svg>
-                  </span>
+                  </span>-->
                 </div>
                 <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Email Commenting</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                  <h3 class="text-lg font-medium text-white"><b>ОБЛАДНАННЯ ДЛЯ ШИНОМОНТАЖУ</b></h3>
+                  <p class="mt-2 text-base text-purple-200">Балансувальні стенди <br> Вулканізатори, підйомне <br> Шиномонтажні верстати</p>
                 </div>
               </div>
 
               <div>
                 <div>
                   <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
+                    <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/inbox" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z"></path>
+                    </svg>
+                  </span>
+                  <!--<span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
                     <svg class="h-6 w-6 text-white" x-description="Heroicon name: outline/heart" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"></path>
                     </svg>
-                  </span>
+                  </span>-->
                 </div>
                 <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Connect with Customers</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+                  <h3 class="text-lg font-medium text-white"><b>БЕЗКОШТОВНА <br> ПРОФЕСІЙНА КОНСУЛЬТАЦІЯ</b></h3>
+                  <p class="mt-2 text-base text-purple-200">Бідберемо від латки до обладнання "під ключ"</p>
                 </div>
               </div>
 
@@ -552,9 +591,9 @@
           <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-flow-col-dense xl:grid-cols-2 xl:gap-x-8">
             <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
               <h2 class="text-base font-semibold">
-                <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
+                <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">ПРО НАС</span>
               </h2>
-              <p class="mt-3 text-3xl font-bold tracking-tight text-white">Get actionable data that will help grow your business</p>
+              <p class="mt-3 text-3xl font-bold tracking-tight text-white">GELEON.UA <br> НАДІЙНИЙ ПОСТАЧАЛЬНИК ШИНОМОНТАЖНИХ МЕТЕРІАЛІВ</p>
               <p class="mt-5 text-lg text-gray-300">Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.</p>
               <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
 
