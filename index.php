@@ -20,15 +20,18 @@
 
 <body>
 
-  <div class=" bg-purple-700  flex justify-center">
-    <!--bg-cyan-600-->
+  <div class="  bg-white-600 flex justify-center">
+    <!--bg-purple-700  bg-cyan-600-->
     <div class="max-w-6xl bg-white ">
       <header>
         <div class="relative bg-white mb-5 ">
 
-          <div class="grow mr-1 sm:mr-4bg-green-300 flex justify-center content-center font-semibold text-[#00c3f1]
-                text-[6px] mic2:text-[8px]  sm:text-xs md:text-xl  lg:text-2xl xl:text-2xl">
-            <div class="text-[#00c3f1] flex content-center grid">
+          <!--<div class="grow mr-1 sm:mr-4bg-green-300 flex justify-center content-center font-semibold text-[#00c3f1]
+                text-[6px] mic2:text-[8px]  sm:text-xs md:text-xl  lg:text-2xl xl:text-2xl">-->
+          <div class="grow mr-1 sm:mr-4bg-purple-300 flex justify-center content-center font-semibold text-[#4b0082]
+                text-[6px] mic2:text-[8px]  sm:text-xs md:text-xl  lg:text-2xl xl:text-2xl"> 
+            <!--<div class="text-[#00c3f1] flex content-center grid">-->
+                <div class="text-[#4b0082] flex content-center grid">
               <span>
                 <a href="https://geleon.ua/">// В магазин
                 </a>
@@ -179,7 +182,7 @@
 
         <div class="lg:p-2 absolute top-6 lg:top-20 z-30 flex  grid justify-items-center  inset-x-0">
 
-          <h1 class="  font-bold text-white text-xl	line-height: 2.5rem; text-xs mic:text-base sm:text-2xl md:text-4xl lg:text-5xl  mt-10  text-white ">
+          <h1 class=" font-bold text-white text-xl	line-height: 2.5rem; text-xs mic:text-base sm:text-2xl md:text-4xl lg:text-5xl  mt-10  text-white ">
           <center>
           Високоприбуткові витратні матеріали <br> для шиномонтажу </center>
           </h1>
@@ -198,10 +201,10 @@
           <div class="mt-1 text-[7px] lg:text-xl text-white   text-center font-bold w-8/12   rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700 ">
            
             <h3 class="mt-1 lg:mt-4 text-center">
-              Оставьте заявку на просчет и получите комплект <br> латок тм Patchrubber стоимостью 250грн в подарок!
+              Залиште заявку на прайс  <br> та станьте учасником розігрішу 10 Наборів латок тм Patchrubber стоимостью 250грн в подарок!
             </h3>
             <h4 class="mt-1 text-[6px] lg:text-lg text-center">
-              *количество комплектов ограничено.
+              <!--*количество комплектов ограничено.-->
             </h4>
 
 
@@ -362,7 +365,7 @@
                     <h2 class="text-4xl font-bold tracking-tight text-gray-900">Дізнайтеся, як збільшити прибуток шиномонтажного бізнесу до 53% за допомогою шиномонтажних матеріалів підвищенної прибутковості від компанії Geleon.ua</h2>
                     <p class="mt-4 text-lg text-gray-500">Дізнайтеся як збільшити прибуток шиномонтажного бізнесу до 53%, збільшити швідкість виконання шиномонтажних послуг та  кількість задволених клієнтів. Залиште контакти і отримайте змогу завантажити "Поради для збільшення прибутковості шиномонтажного бізнесу від компанії Geleo.ua шляхом підбору найбільш актуальніх і сучасних шиноремонтних матеріалів"</p>
                     <div class="mt-6">
-                      <a href="#" class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">ОТРИМАЙТЕ БЕЗКОШТОВНО <br>"Стратегію збільшення прибутку <br> шиномонтажного бізнесу"
+                      <a href="#" class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-large text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">ОТРИМАЙТЕ БЕЗКОШТОВНО <br>"Стратегію збільшення прибутку <br> шиномонтажного бізнесу"
 
                       </a>
                     </div>
@@ -386,7 +389,8 @@
               </div>
               <div class="mt-12 sm:mt-16 lg:mt-0">
                 <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                  <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg" alt="Inbox user interface">
+                  <!--<img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg" alt="Inbox user interface">-->
+                      <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="img/10.png" alt="Inbox user interface">
                 </div>
               </div>
             </div>
@@ -406,14 +410,14 @@
                     <h2 class="text-4xl font-bold tracking-tight text-gray-900">Придбайте високоприбуткові шиномонтажні матеріали</h2>
                     <p class="mt-4 text-lg text-gray-500">Отримайте повний прайс-лист шиномонтних матеріалів: латки камерні, латки універсальні, пластирі радіальні та діагональні, грибки, колишки, клей шиномонтажний швидкопідсихаючий, сира гума, герметики борту,  вентилі, золотники та багато іншого для шиномонтажного бізнесу</p>
                     <div class="mt-6">
-                      <a href="#" class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Отримати прайс-лист</a>
+                      <a href="#" class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-large text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Отримати прайс-лист</a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
                 <div class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                  <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" alt="Customer profile user interface">
+                  <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/9.png" alt="Customer profile user interface">
                 </div>
               </div>
             </div>
@@ -593,28 +597,28 @@
               <h2 class="text-base font-semibold">
                 <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">ПРО НАС</span>
               </h2>
-              <p class="mt-3 text-3xl font-bold tracking-tight text-white">GELEON.UA <br> НАДІЙНИЙ ПОСТАЧАЛЬНИК ШИНОМОНТАЖНИХ МЕТЕРІАЛІВ</p>
-              <p class="mt-5 text-lg text-gray-300">Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.</p>
+              <p class="mt-3 text-3xl font-bold tracking-tight text-white">GELEON.UA <br> НАДІЙНИЙ ПОСТАЧАЛЬНИК ШИНОМОНТАЖНИХ МАТЕРІАЛІВ</p>
+              <p class="mt-5 text-lg text-gray-300">Компанія Geleon.ua була заснована в 2003 році, в м. Дніпро. Девіз компанії: НАДІЙНІСТЬ, ЯКІСТЬ, РЕЗУЛЬТАТ. Здійснює доставку шиноремонтних матеріалів по всій Україні. </p>
               <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
 
                 <p>
-                  <span class="block text-2xl font-bold text-white">8K+</span>
-                  <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Companies</span> use laoreet amet lacus nibh integer quis.</span>
+                  <span class="block text-2xl font-bold text-white">20 років +</span>
+                  <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Досвідe роботи</span> на шиномонтажному ринку Україну.</span>
                 </p>
 
                 <p>
-                  <span class="block text-2xl font-bold text-white">25K+</span>
-                  <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Countries around the globe</span> lacus nibh integer quis.</span>
+                  <span class="block text-2xl font-bold text-white">10000 +</span>
+                  <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Ассортимент наявних шиноремонтних матеріалів</span> на власному складі Geleon.ua.</span>
                 </p>
 
                 <p>
-                  <span class="block text-2xl font-bold text-white">98%</span>
-                  <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Customer satisfaction</span> laoreet amet lacus nibh integer quis.</span>
+                  <span class="block text-2xl font-bold text-white">100%</span>
+                  <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Здійснює доставку матеріалів</span> на всю територію неокупованої України.</span>
                 </p>
 
                 <p>
-                  <span class="block text-2xl font-bold text-white">12M+</span>
-                  <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Issues resolved</span> lacus nibh integer quis.</span>
+                  <span class="block text-2xl font-bold text-white">20000 +</span>
+                  <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Задоволених клієнтів </span> та надійних партнерів.</span>
                 </p>
 
               </div>
@@ -626,12 +630,12 @@
         <div class="bg-white">
           <div class="mx-auto max-w-4xl py-16 px-4 sm:px-6 sm:py-24 lg:flex lg:max-w-7xl lg:items-center lg:justify-between lg:px-8">
             <h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              <span class="block">Ready to get started?</span>
-              <span class="-mb-1 block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text pb-1 text-transparent">Get in touch or create an account.</span>
+              <span class="block">Все ще маєте сумніви?</span>
+              <span class="-mb-1 block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text pb-1 text-transparent"> Залиште телефон <br>і отримайте безкоштовну консультацію.</span>
             </h2>
             <div class="mt-6 space-y-4 sm:flex sm:space-y-0 sm:space-x-5">
-              <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Learn more</a>
-              <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-50 px-4 py-3 text-base font-medium text-indigo-800 shadow-sm hover:bg-indigo-100">Get started</a>
+              <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 text-base font-large text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Отримати <br> консультацію</a>
+              <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-50 px-4 py-3 text-base font-large text-indigo-800 shadow-sm hover:bg-indigo-100">Отримати <br>прайс-лист</a>
             </div>
           </div>
         </div>
