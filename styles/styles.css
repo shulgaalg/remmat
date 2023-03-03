@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(253, 248, 248);
+    display: flex;
+    justify-content: center;
+    
+    }
+    .conteiner {
+    max-width: 1152px;
+    }
+    .zaglavie {
+        /*color: blueviolet;*/
+        color: rgb(71, 78, 78);
+        font-size: 35px;
+        
+    }
+    .logo {
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+    }
+     .one_screen {
+     height: 600px; 
+
+    }
+    .one_screen-img{
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    
+     width: 100% ;
+    }
+
+    .brends {
+    /*float: inline-start;
+    display: inline-block;
+    width: 20%;*/
+        display: flex;
+        flex: 0 1 33 333%;
+        justify-content: space-between;
+        align-items: top;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .brend_logo {
+        box-sizing: border-box;
+            width: 100%;
+            height: 100px;
+            margin: auto;
+            padding: 0;
+            
+    }
+    .one {
+        color: rgb(253, 253, 253);
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .otziv {
+        color: rgb(105, 16, 187);
+        font-size: xx-large;
+        
+    }
