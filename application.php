@@ -28,28 +28,28 @@ $utm = '';
 
 
 
-    $queryUrl = 'https://geleon.bitrix24.ua/rest/1/zmod9dq2vgin03pi/crm.lead.add.json';
+    $queryUrl = 'https://geleon.bitrix24.eu/rest/1/hejofpo86ze8v6f8/crm.lead.add.json';
     // Формируем параметры для создания лида в переменной $queryData
   
   $queryData = http_build_query(array(
     'fields' => array(
       // Устанавливаем название для заголовка лида 1578
       'TITLE' => $_POST['title'] . ' Сайт: https://t.geleon.ua',
-      'NAME' => $_POST['name'], 
+      'NAME' => $_POST['InputNameField'], 
       'ASSIGNED_BY_ID' => 1,
       'UTM_CAMPAIGN' => $_POST['utm_campaign'],
       'UTM_MEDIUM' => $_POST['utm_medium'],
       'UTM_SOURCE' => $_POST['utm_source'],
       'UTM_CONTENT' => $_POST['utm_content'],
       'UTM_TERM' => $_POST['utm_term'],
-      'PHONE' => array(array("VALUE" =>  substr($_POST['telephone'], 3), "VALUE_TYPE" => "WORK" )),
-      'EMAIL' => array(array("VALUE" => $_POST['email'], "VALUE_TYPE" => "WORK" )),
-      'COMMENTS' => $_POST['message'],
+      'PHONE' => array(array("VALUE" =>  substr($_POST['InputPhoneField'], 3), "VALUE_TYPE" => "WORK" )),
+     // 'EMAIL' => array(array("VALUE" => $_POST['email']??0, "VALUE_TYPE" => "WORK" )),
+      'COMMENTS' => $_POST['message']??0,
   
     ),
     "PHONE" => array(
       array(
-        "VALUE" =>  substr($_POST['telephone'],3),
+        "VALUE" =>  substr($_POST['InputPhoneField'],3),
         "VALUE_TYPE" => "WORK"
       )
     ),
@@ -77,32 +77,26 @@ $utm = '';
   
 
 $sendto   = "shulga.alg@gmail.com"; // почта, на которую будет приходить письмо shulga.alg@gmail.com
-$username = $_POST['name'];   // сохраняем в переменную данные полученные из поля c именем
-$usertel =  substr($_POST['telephone'], 3); // сохраняем в переменную данные полученные из поля c телефонным номером
-$usermail = $_POST['email']; // сохраняем в переменную данные полученные из поля c адресом электронной почты
-$usermessage = $_POST['message']; // сохраняем в переменную данные полученные из поля c сообщением
+$username = $_POST['InputNameField'];   // сохраняем в переменную данные полученные из поля c именем
+$usertel =  substr($_POST['InputPhoneField'], 3); // сохраняем в переменную данные полученные из поля c телефонным номером
 
 // Формирование заголовка письма
 $subject  = "Заявка с t.geleon.ua";
 $headers  = "From: rns@geleon.ua \r\n"; /* . strip_tags($usermail) . "\r\n"; */
-$headers .= "Reply-To: andriikonst.dp@gmail.com\r\n";
-$headers .= "MIME-Version: 1.0\r\n";
-$headers .= "Content-Type: text/html;charset=utf-8 \r\n";
 
 // Формирование тела письма
-$msg  = "<html><body style='font-family:Arial,sans-serif;'>";
-$msg .= "<h2 style='font-weight:bold;border-bottom:1px dotted #ccc;'>Заявка с t.geleon.ua</h2>\r\n";
-$msg .= "<p><strong>От кого:</strong> ".$username."</p>\r\n";
-$msg .= "<p><strong>Email:</strong> ".$usermail."</p>\r\n";
-$msg .= "<p><strong>Телефон:</strong> ".$usertel."</p>\r\n";
-$msg .= "<p><strong>Сообщение:</strong> ".$usermessage."</p>\r\n";
-$msg .= "</body></html>";
+$msg = "Заявка с t.geleon.ua\r\n";
+$msg .= "От кого: ".$username."\r\n";
+$msg .= "Телефон: ".$usertel."\r\n";
+
 
 // отправка сообщения
 if(@mail($sendto, $subject, $msg, $headers)) {
-  echo "<center><img src='images/thanks.png'></center>";
+  // echo "<center><img src='img/thanks.png'></center>";
+  echo "<center><img src='./assets/thanks.png'></center>";
 } else {
-  echo "<center><img src='images/ne-otpravleno.png'></center>";
+  // echo "<center><img src='images/ne-otpravleno.png'></center>";
+  echo "<center><img src='./assets/ne-otpravleno.svg'></center>";
 }
 
 ?>
