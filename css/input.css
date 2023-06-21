@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Zona Pro';
+    font-weight: 400;
+    src: url('../fonts/ZonaPro-Regular.woff2') format('woff2'),
+      url('../fonts/ZonaPro-Regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Zona Pro';
+    font-weight: 700;
+    src: url('../fonts/ZonaPro-Bold.woff2') format('woff2'),
+      url('../fonts/ZonaPro-Bold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+      url('../fonts/Montserrat-Regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+      url('../fonts/Montserrat-Medium.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+      url('../fonts/Montserrat-SemiBold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+      url('../fonts/Montserrat-Bold.woff') format('woff');
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply font-zona text-[22px] font-medium uppercase leading-[26px] text-darkBlue lg:text-4xl 3xl:text-[50px] 3xl:leading-[73px] 4xl:text-[70px] 4xl:leading-[83px];
+  }
+  .section-inline-padding {
+    @apply lg:px-10 2xl:px-[96px];
+  }
+
+  .section-text-35 {
+    @apply text-base leading-5 lg:text-lg 2xl:text-xl 3xl:text-[35px] 3xl:leading-[43px];
+  }
+
+  .product-img {
+    @apply h-[241px] w-[248px] shrink-0 3xl:h-[396px] 3xl:w-[385px];
+  }
+
+  .product-title {
+    @apply font-zona text-[22px] font-bold uppercase leading-[26px] lg:text-3xl 3xl:text-[35px] 3xl:leading-[42px];
+  }
+
+  .product-text {
+    @apply mb-[9px] font-zona text-[22px] uppercase leading-[26px] lg:mb-[39px] lg:text-3xl 3xl:text-[35px] 3xl:leading-[42px];
+  }
+
+  .product-list {
+    @apply list-disc font-zona leading-[18px] 3xl:text-[25px] 3xl:leading-[30px];
+  }
+
+  .status {
+    @apply fixed top-0 bottom-0 left-0 right-0 bg-[rgba(240,240,240,0.97)] grid z-30 place-items-center;
+  }
+
+  .image {
+    @apply h-auto w-full max-w-full object-contain object-center;
+  }
+}
