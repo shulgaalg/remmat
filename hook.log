@@ -1,0 +1,1121 @@
+
+------------------------
+2023.07.07 14:50:30
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [InputPhoneField] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 14:50:31
+webform result
+Array
+(
+    [result] => 33435
+    [time] => Array
+        (
+            [start] => 1688730630.962
+            [finish] => 1688730631.9587
+            [duration] => 0.99672508239746
+            [processing] => 0.97613906860352
+            [date_start] => 2023-07-07T14:50:30+03:00
+            [date_finish] => 2023-07-07T14:50:31+03:00
+            [operating_reset_at] => 1688731230
+            [operating] => 0.97612714767456
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 14:50:54
+webform PHP
+Array
+(
+    [InputNameField] => 123123
+    [InputPhoneField] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 14:50:55
+webform result
+Array
+(
+    [result] => 33437
+    [time] => Array
+        (
+            [start] => 1688730655.371
+            [finish] => 1688730656.1015
+            [duration] => 0.73051786422729
+            [processing] => 0.70919513702393
+            [date_start] => 2023-07-07T14:50:55+03:00
+            [date_finish] => 2023-07-07T14:50:56+03:00
+            [operating_reset_at] => 1688731255
+            [operating] => 1.685310125351
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 14:51:46
+webform PHP
+Array
+(
+    [InputNameField] => 123123
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 14:51:47
+webform result
+Array
+(
+    [result] => 33439
+    [time] => Array
+        (
+            [start] => 1688730707.0894
+            [finish] => 1688730707.7503
+            [duration] => 0.66085600852966
+            [processing] => 0.62950611114502
+            [date_start] => 2023-07-07T14:51:47+03:00
+            [date_finish] => 2023-07-07T14:51:47+03:00
+            [operating_reset_at] => 1688731307
+            [operating] => 2.3148002624512
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 14:57:04
+webform PHP
+Array
+(
+    [InputNameField] => 123123
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 14:57:13
+webform result
+Array
+(
+    [result] => 33441
+    [time] => Array
+        (
+            [start] => 1688731025.503
+            [finish] => 1688731033.432
+            [duration] => 7.9290618896484
+            [processing] => 7.904198884964
+            [date_start] => 2023-07-07T14:57:05+03:00
+            [date_finish] => 2023-07-07T14:57:13+03:00
+            [operating_reset_at] => 1688731625
+            [operating] => 10.218984365463
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 15:00:37
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 15:00:38
+webform result
+Array
+(
+    [result] => 33443
+    [time] => Array
+        (
+            [start] => 1688731238.0846
+            [finish] => 1688731239.0072
+            [duration] => 0.92261600494385
+            [processing] => 0.89273190498352
+            [date_start] => 2023-07-07T15:00:38+03:00
+            [date_finish] => 2023-07-07T15:00:39+03:00
+            [operating_reset_at] => 1688731838
+            [operating] => 9.4263854026794
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:00:29
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:00:30
+webform result
+Array
+(
+    [result] => 33445
+    [time] => Array
+        (
+            [start] => 1688734829.8377
+            [finish] => 1688734830.9016
+            [duration] => 1.063905954361
+            [processing] => 1.0400538444519
+            [date_start] => 2023-07-07T16:00:29+03:00
+            [date_finish] => 2023-07-07T16:00:30+03:00
+            [operating_reset_at] => 1688735429
+            [operating] => 1.0400319099426
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:07:00
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:07:02
+webform result
+Array
+(
+    [result] => 33447
+    [time] => Array
+        (
+            [start] => 1688735221.3862
+            [finish] => 1688735222.4804
+            [duration] => 1.0942211151123
+            [processing] => 1.067948102951
+            [date_start] => 2023-07-07T16:07:01+03:00
+            [date_finish] => 2023-07-07T16:07:02+03:00
+            [operating_reset_at] => 1688735821
+            [operating] => 2.1079649925232
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:09:30
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:09:31
+webform result
+Array
+(
+    [result] => 33449
+    [time] => Array
+        (
+            [start] => 1688735370.8975
+            [finish] => 1688735371.649
+            [duration] => 0.75159192085266
+            [processing] => 0.72654581069946
+            [date_start] => 2023-07-07T16:09:30+03:00
+            [date_finish] => 2023-07-07T16:09:31+03:00
+            [operating_reset_at] => 1688735970
+            [operating] => 2.8344938755035
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:09:45
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:09:46
+webform result
+Array
+(
+    [result] => 33451
+    [time] => Array
+        (
+            [start] => 1688735386.0643
+            [finish] => 1688735386.752
+            [duration] => 0.68765497207642
+            [processing] => 0.66089701652527
+            [date_start] => 2023-07-07T16:09:46+03:00
+            [date_finish] => 2023-07-07T16:09:46+03:00
+            [operating_reset_at] => 1688735986
+            [operating] => 3.4953737258911
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:14:50
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:14:51
+webform result
+Array
+(
+    [result] => 33453
+    [time] => Array
+        (
+            [start] => 1688735691.2978
+            [finish] => 1688735692.016
+            [duration] => 0.7182137966156
+            [processing] => 0.69429993629456
+            [date_start] => 2023-07-07T16:14:51+03:00
+            [date_finish] => 2023-07-07T16:14:52+03:00
+            [operating_reset_at] => 1688736291
+            [operating] => 3.1496279239655
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:42:03
+webform PHP
+Array
+(
+    [utm_campaign] => <br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan=
+    [utm_medium] => <br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan=
+    [utm_source] => <br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan=
+    [utm_content] => <br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan=
+    [utm_term] => <br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan=
+    [DATA] => Array
+        (
+            [TITLE] => F2 t.geleon.ua
+        )
+
+    [title] => Заявка Лендинг Расходники
+    [name] => Александр Шульга
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:42:04
+webform result
+Array
+(
+    [result] => 33457
+    [time] => Array
+        (
+            [start] => 1688737324.3822
+            [finish] => 1688737325.1417
+            [duration] => 0.75944900512695
+            [processing] => 0.73575091362
+            [date_start] => 2023-07-07T16:42:04+03:00
+            [date_finish] => 2023-07-07T16:42:05+03:00
+            [operating_reset_at] => 1688737924
+            [operating] => 0.73573398590088
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:46:17
+webform PHP
+Array
+(
+    [InputNameField] => qweqwe
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:46:18
+webform result
+Array
+(
+    [result] => 33459
+    [time] => Array
+        (
+            [start] => 1688737577.7569
+            [finish] => 1688737578.5723
+            [duration] => 0.81541991233826
+            [processing] => 0.7912609577179
+            [date_start] => 2023-07-07T16:46:17+03:00
+            [date_finish] => 2023-07-07T16:46:18+03:00
+            [operating_reset_at] => 1688738177
+            [operating] => 1.5269751548767
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:49:08
+webform PHP
+Array
+(
+    [InputNameField] => 231231
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:49:10
+webform result
+Array
+(
+    [result] => 33461
+    [time] => Array
+        (
+            [start] => 1688737749.0199
+            [finish] => 1688737751.1924
+            [duration] => 2.1724519729614
+            [processing] => 2.1440351009369
+            [date_start] => 2023-07-07T16:49:09+03:00
+            [date_finish] => 2023-07-07T16:49:11+03:00
+            [operating_reset_at] => 1688738349
+            [operating] => 3.6709942817688
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:49:56
+webform PHP
+Array
+(
+    [InputNameField] => 2313
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:50:02
+webform result
+Array
+(
+    [result] => 33463
+    [time] => Array
+        (
+            [start] => 1688737797.1276
+            [finish] => 1688737803.2734
+            [duration] => 6.1457381248474
+            [processing] => 6.1195590496063
+            [date_start] => 2023-07-07T16:49:57+03:00
+            [date_finish] => 2023-07-07T16:50:03+03:00
+            [operating_reset_at] => 1688738397
+            [operating] => 9.7905383110046
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:50:29
+webform PHP
+Array
+(
+    [InputNameField] => 123123
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:50:30
+webform result
+Array
+(
+    [result] => 33465
+    [time] => Array
+        (
+            [start] => 1688737829.8753
+            [finish] => 1688737830.6741
+            [duration] => 0.79880499839783
+            [processing] => 0.77529001235962
+            [date_start] => 2023-07-07T16:50:29+03:00
+            [date_finish] => 2023-07-07T16:50:30+03:00
+            [operating_reset_at] => 1688738429
+            [operating] => 10.565813302994
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:50:31
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:50:32
+webform result
+Array
+(
+    [result] => 33467
+    [time] => Array
+        (
+            [start] => 1688737832.4629
+            [finish] => 1688737833.126
+            [duration] => 0.66317105293274
+            [processing] => 0.63658499717712
+            [date_start] => 2023-07-07T16:50:32+03:00
+            [date_finish] => 2023-07-07T16:50:33+03:00
+            [operating_reset_at] => 1688738432
+            [operating] => 11.202377319336
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:50:36
+webform PHP
+Array
+(
+    [InputNameField] => 213123
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:50:37
+webform result
+Array
+(
+    [result] => 33469
+    [time] => Array
+        (
+            [start] => 1688737837.4333
+            [finish] => 1688737838.124
+            [duration] => 0.69061398506165
+            [processing] => 0.66729807853699
+            [date_start] => 2023-07-07T16:50:37+03:00
+            [date_finish] => 2023-07-07T16:50:38+03:00
+            [operating_reset_at] => 1688738437
+            [operating] => 11.869660377502
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:50:38
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:50:39
+webform result
+Array
+(
+    [result] => 33471
+    [time] => Array
+        (
+            [start] => 1688737839.4164
+            [finish] => 1688737840.2486
+            [duration] => 0.83215403556824
+            [processing] => 0.80700087547302
+            [date_start] => 2023-07-07T16:50:39+03:00
+            [date_finish] => 2023-07-07T16:50:40+03:00
+            [operating_reset_at] => 1688738439
+            [operating] => 12.676639556885
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:51:41
+webform PHP
+Array
+(
+    [InputNameField] => wwew
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:51:42
+webform result
+Array
+(
+    [result] => 33473
+    [time] => Array
+        (
+            [start] => 1688737902.4889
+            [finish] => 1688737903.3632
+            [duration] => 0.87435007095337
+            [processing] => 0.85092091560364
+            [date_start] => 2023-07-07T16:51:42+03:00
+            [date_finish] => 2023-07-07T16:51:43+03:00
+            [operating_reset_at] => 1688738502
+            [operating] => 13.527544498444
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:51:43
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:51:44
+webform result
+Array
+(
+    [result] => 33475
+    [time] => Array
+        (
+            [start] => 1688737904.5122
+            [finish] => 1688737905.2494
+            [duration] => 0.73726201057434
+            [processing] => 0.71369004249573
+            [date_start] => 2023-07-07T16:51:44+03:00
+            [date_finish] => 2023-07-07T16:51:45+03:00
+            [operating_reset_at] => 1688738504
+            [operating] => 14.241220474243
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:51:51
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:51:52
+webform result
+Array
+(
+    [result] => 33477
+    [time] => Array
+        (
+            [start] => 1688737912.0776
+            [finish] => 1688737912.7848
+            [duration] => 0.70714092254639
+            [processing] => 0.67106008529663
+            [date_start] => 2023-07-07T16:51:52+03:00
+            [date_finish] => 2023-07-07T16:51:52+03:00
+            [operating_reset_at] => 1688738512
+            [operating] => 14.912256479263
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:51:55
+webform PHP
+Array
+(
+    [InputNameField] => 
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:51:56
+webform result
+Array
+(
+    [result] => 33479
+    [time] => Array
+        (
+            [start] => 1688737915.7194
+            [finish] => 1688737916.5523
+            [duration] => 0.83287501335144
+            [processing] => 0.80785393714905
+            [date_start] => 2023-07-07T16:51:55+03:00
+            [date_finish] => 2023-07-07T16:51:56+03:00
+            [operating_reset_at] => 1688738515
+            [operating] => 15.720095396042
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:51:58
+webform PHP
+Array
+(
+    [InputNameField] => 3333
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:51:59
+webform result
+Array
+(
+    [result] => 33481
+    [time] => Array
+        (
+            [start] => 1688737918.7358
+            [finish] => 1688737919.6068
+            [duration] => 0.87091302871704
+            [processing] => 0.83423686027527
+            [date_start] => 2023-07-07T16:51:58+03:00
+            [date_finish] => 2023-07-07T16:51:59+03:00
+            [operating_reset_at] => 1688738518
+            [operating] => 16.554300308228
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:54:38
+webform PHP
+Array
+(
+    [InputNameField] => 33333
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:54:39
+webform result
+Array
+(
+    [result] => 33483
+    [time] => Array
+        (
+            [start] => 1688738079.3711
+            [finish] => 1688738080.1593
+            [duration] => 0.78818678855896
+            [processing] => 0.76059913635254
+            [date_start] => 2023-07-07T16:54:39+03:00
+            [date_finish] => 2023-07-07T16:54:40+03:00
+            [operating_reset_at] => 1688738679
+            [operating] => 16.5791451931
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:55:11
+webform PHP
+Array
+(
+    [InputNameField] => 1212
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:55:12
+webform result
+Array
+(
+    [result] => 33485
+    [time] => Array
+        (
+            [start] => 1688738111.7896
+            [finish] => 1688738112.6284
+            [duration] => 0.83887505531311
+            [processing] => 0.81124496459961
+            [date_start] => 2023-07-07T16:55:11+03:00
+            [date_finish] => 2023-07-07T16:55:12+03:00
+            [operating_reset_at] => 1688738711
+            [operating] => 17.390371084213
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:55:31
+webform PHP
+Array
+(
+    [InputNameField] => 334
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:55:32
+webform result
+Array
+(
+    [result] => 33487
+    [time] => Array
+        (
+            [start] => 1688738132.2028
+            [finish] => 1688738133.0493
+            [duration] => 0.84649801254272
+            [processing] => 0.82131791114807
+            [date_start] => 2023-07-07T16:55:32+03:00
+            [date_finish] => 2023-07-07T16:55:33+03:00
+            [operating_reset_at] => 1688738732
+            [operating] => 18.211673021317
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:55:46
+webform PHP
+Array
+(
+    [InputNameField] => 22232
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:55:47
+webform result
+Array
+(
+    [result] => 33489
+    [time] => Array
+        (
+            [start] => 1688738146.6804
+            [finish] => 1688738147.4461
+            [duration] => 0.76573300361633
+            [processing] => 0.74163603782654
+            [date_start] => 2023-07-07T16:55:46+03:00
+            [date_finish] => 2023-07-07T16:55:47+03:00
+            [operating_reset_at] => 1688738746
+            [operating] => 18.953293085098
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:55:53
+webform PHP
+Array
+(
+    [InputNameField] => 232
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:55:54
+webform result
+Array
+(
+    [result] => 33491
+    [time] => Array
+        (
+            [start] => 1688738154.4057
+            [finish] => 1688738155.117
+            [duration] => 0.71130418777466
+            [processing] => 0.68372702598572
+            [date_start] => 2023-07-07T16:55:54+03:00
+            [date_finish] => 2023-07-07T16:55:55+03:00
+            [operating_reset_at] => 1688738754
+            [operating] => 19.637006044388
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:56:19
+webform PHP
+Array
+(
+    [InputNameField] => 123123
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:56:20
+webform result
+Array
+(
+    [result] => 33493
+    [time] => Array
+        (
+            [start] => 1688738180.2107
+            [finish] => 1688738181.0273
+            [duration] => 0.81658887863159
+            [processing] => 0.79330396652222
+            [date_start] => 2023-07-07T16:56:20+03:00
+            [date_finish] => 2023-07-07T16:56:21+03:00
+            [operating_reset_at] => 1688738780
+            [operating] => 19.639051675797
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:56:40
+webform PHP
+Array
+(
+    [InputNameField] => 23233
+    [telephone] => 
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:56:41
+webform result
+Array
+(
+    [result] => 33495
+    [time] => Array
+        (
+            [start] => 1688738201.1666
+            [finish] => 1688738201.9772
+            [duration] => 0.81066584587097
+            [processing] => 0.78586912155151
+            [date_start] => 2023-07-07T16:56:41+03:00
+            [date_finish] => 2023-07-07T16:56:41+03:00
+            [operating_reset_at] => 1688738801
+            [operating] => 20.424905776978
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:59:35
+webform PHP
+Array
+(
+    [InputNameField] => 1232132
+    [telephone] => +38 (011) 111-11-11
+)
+
+------------------------
+
+------------------------
+2023.07.07 16:59:36
+webform result
+Array
+(
+    [result] => 33497
+    [time] => Array
+        (
+            [start] => 1688738375.7749
+            [finish] => 1688738376.598
+            [duration] => 0.82306885719299
+            [processing] => 0.79381203651428
+            [date_start] => 2023-07-07T16:59:35+03:00
+            [date_finish] => 2023-07-07T16:59:36+03:00
+            [operating_reset_at] => 1688738975
+            [operating] => 12.955136537552
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 17:01:17
+webform PHP
+Array
+(
+    [InputNameField] => 123123
+    [telephone] => +38 (011) 111-11-11
+)
+
+------------------------
+
+------------------------
+2023.07.07 17:01:18
+webform result
+Array
+(
+    [result] => 33499
+    [time] => Array
+        (
+            [start] => 1688738478.2296
+            [finish] => 1688738478.9618
+            [duration] => 0.73214483261108
+            [processing] => 0.70704507827759
+            [date_start] => 2023-07-07T17:01:18+03:00
+            [date_finish] => 2023-07-07T17:01:18+03:00
+            [operating_reset_at] => 1688739078
+            [operating] => 6.8984055519104
+        )
+
+)
+
+------------------------
+
+------------------------
+2023.07.07 17:02:09
+webform PHP
+Array
+(
+    [InputNameField] => 123123
+    [telephone] => +38 (011) 111-11-11
+)
+
+------------------------
+
+------------------------
+2023.07.07 17:07:39
+webform PHP
+Array
+(
+    [InputNameField] => 12123
+    [telephone] => +38 (022) 222-22-22
+)
+
+------------------------
+
+------------------------
+2023.07.07 17:08:11
+webform result
+Array
+(
+    [result] => 33501
+    [time] => Array
+        (
+            [start] => 1688738881.7559
+            [finish] => 1688738882.6123
+            [duration] => 0.85636687278748
+            [processing] => 0.81960391998291
+            [date_start] => 2023-07-07T17:08:01+03:00
+            [date_finish] => 2023-07-07T17:08:02+03:00
+            [operating_reset_at] => 1688739481
+            [operating] => 2.3204078674316
+        )
+
+)
+
+------------------------
